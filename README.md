@@ -28,14 +28,14 @@ This shader will not work well with anything that has a pattern to it like tiles
 
 ### What do the shader properties do?
 
-MainTexture: The albedo texture
-Normal: The normal map
-Tiling: Base tiling for the texture (before mosaics)
-Offset: Base offset for the texture (before mosaics)
-MosaicScale: The tiling to apply in the U and V directions for the mosaic
-MosaicNoise: This helps reduce seams between blocks, keep this value small (~0.1)
-MosaicRotation: The amount of mosaic rotation to apply.
-NormalStrength: The strength of the normal.
+ - MainTexture: The albedo texture
+ - Normal: The normal map
+ - Tiling: Base tiling for the texture (before mosaics)
+ - Offset: Base offset for the texture (before mosaics)
+ - MosaicScale: The tiling to apply in the U and V directions for the mosaic
+ - MosaicNoise: This helps reduce seams between blocks, keep this value small (~0.1)
+ - MosaicRotation: The amount of mosaic rotation to apply.
+ - NormalStrength: The strength of the normal.
 
 ### Can I use this texture for school, personal projects, or commercially?
 
