@@ -14,6 +14,10 @@ Here is a before/after:
 
 ![After Image](https://github.com/boppygames/UnityTextureMosaicExample/blob/main/ReadmeImg/After.png?raw=true)
 
+### What version of Unity is supported?
+
+This should work on any version of Unity that support URP/HRDP. This shader is implemented as a shadergraph shader so it will not work with the built in pipeline. If you are still using the built in pipeline, consider switching to [URP](URP) :)
+
 ### What kind of textures does this work for?
 
 This shader works great with any texture that doesn't really have a pattern to it. This shader should even work with textures that aren't seamless.
